@@ -1,0 +1,41 @@
+ #div1{
+                 width:400px;
+                 height:400px;
+                 background-color:greenyellow;
+
+                 /* 1.border 边框样式 */
+                 border-width:1px;       /* 边框粗细 */
+                 border-style:solid;    /* 边框样式：solid（实线），dotted（点状线）... */
+                 border-color:blue;      /* 边框颜色 */
+
+                 /* border:4px double blue; */
+                 /* border-top:4px dotted blue; */
+             }
+             #div2{
+                 width:150px;
+                 height:150px;
+                 background-color:darkorange;
+                 /*
+                 margin-top:100px;
+                 margin-left:100px;
+                 */
+                 margin:100px 100px 50px 100px;/* 一个值：四个方向统一；四个值：上右下左 */
+
+                 /* padding：填充 */
+                 padding-top:50px;
+                 padding-left:50px;
+             }
+             #div3{
+                 width:100px;
+                 height:100px;
+                 background-color:aquamarine;
+
+                 /*
+                 margin-top:50px;
+                 margin-left:50px;
+                 */
+             }
+             body{
+                margin:0px;
+                padding:0px;
+             }

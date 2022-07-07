@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表单标签</title>
+    </head>
+    <body>
+        <form action="基础标签.前端三件套.html" method="post">
+            昵称：<input type="text" name="nickName" value="请输入你的昵称"><br>
+            密码：<input type="password" name="password"><br>
+            性别：<input type="radio" name="gender" value="male" checked>男
+            <input type="radio" name="gender" value="female">女<br>
+            爱好：<input type="checkbox" name="hobby" value="basketball">篮球
+            <input type="checkbox" name="hobby" value="football">足球
+            <input type="checkbox" name="hobby" value="earth">地球<br>
+            星座：<select name="star">
+                    <option value="1">白羊座</option>
+                    <option value="2">金牛座</option>
+                    <option value="3">双子座</option>
+                    <option value="4">摩羯座</option>
+                    <option value="5">天秤座</option>
+                    <option value="6">天蝎座</option>
+                    <option value="7">水瓶座</option>
+                  </select><br>
+            备注：<textarea name="remark" rows="4" cols="50">请输入你的备注</textarea><br>
+            <input type="submit" value="注册">
+            <input type="reset" value="重置">
+            <input type="button" value="普通按钮">
+        </form>
+    </body>
+</html>
+
+<!--
+18)
+    表单 form
+
+19)
+    input type="text" 表示文本框，其中name属性必须要指定，否则这个文本框的数据是不会发送给服务器的
+    input type="password" 表示密码框
+    input type="radio" 表示单选按钮，需要注意的是，name属性值保持一致，这样才会有互斥的效果，可以通过ckecked属性设置默认选中的项
+    input type="checkbox" 表示复选框。name属性建议保持一致，这样服务器端获取值的时候获取的是一个数组
+    select 表示下拉列表。每一个选项是option，其中value值就是开始结束标签之间的内容
+    input type="submit" 表示提交按钮
+    input type="reset" 表示重置按钮
+    input type="button" 表示普通按钮
+
+总结：
+1.html是解释性的文本标记语言，不区分大小写
+2.
+前端三件套.html，head，title，meta，body，br，ul，ol，h1~h6，a，img，&nbsp;，p，div，span
+table，tr，td，th
+form(action="" method="") input type="text,password,radio,checkbox,submit,button,reset"，select，textarea
+u，i，b，sup，sub，li，input
+-->
+
